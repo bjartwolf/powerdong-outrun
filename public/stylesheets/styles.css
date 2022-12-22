@@ -62,16 +62,14 @@ html, body {
   position: relative;
   margin: 0 auto -30px;
   width: 100%;
-  font-weight: 400;
-  font-size: 4em;
-  font-family: 'lazer84', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
   -webkit-transform: skew(-5deg, -5deg);
+  transform: skew(-5deg, -5deg);
   background-image: -webkit-linear-gradient(#FDC42C 0%, #a88e37 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 2px #002EC3);
+  filter: drop-shadow(5px 5px 2px #002EC3);
   z-index: 10;
 }
 
@@ -166,7 +164,7 @@ a:link, a:visited { color: inherit; }
   border: 1px solid #a88e37;
 }
 
-img, audio {
+img:not(.logo), audio {
   display: none;
 }
 
