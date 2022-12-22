@@ -1,6 +1,8 @@
 O U T R U N - 
 ===
 
+![Screenshot](https://powerdongassets.blob.core.windows.net/graphics/powerdong_logo.webp)
+
 Based on the Outrun clone by Copyright (c) 2018 Nathaniel Wroblewski
 and adapted with new sound and graphics for Powerdong.
 
