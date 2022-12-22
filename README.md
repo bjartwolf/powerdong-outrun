@@ -14,5 +14,5 @@ Clone the repo, and run a server:
 ```
 $ git clone https://github.com/NathanielWroblewski/outrun.git
 $ cd outrun
-$ open http://localhost:8000 && python -m SimpleHTTPServer
+$ python -m http.server
 ```
