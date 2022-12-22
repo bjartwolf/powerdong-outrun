@@ -12,7 +12,7 @@ const render = ({ element }) => {
     <div class="clock"></div>
     <div class="radio-container">
       <h3 class="radio">RADIO</h3>
-      <p class="now-playing">Fury Weekend - 12 To Midnight</p>
+      <p class="now-playing">The friar who brewed himself to death</p>
     </div>
   `
 }

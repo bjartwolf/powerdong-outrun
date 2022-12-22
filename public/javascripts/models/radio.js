@@ -6,35 +6,15 @@
 
 const PLAYLIST = [
   {
-    title: '12 to Midnight',
-    artist: 'Fury Weekend',
-    src: '//d9n2q0aon7p4b.cloudfront.net/audio/Fury_Weekend_12_To_Midnight.mp3'
+    title: 'Lethal infection',
+    artist: 'Powerdong',
+    src: 'https://powerdongassets.blob.core.windows.net/songs/Lethal%20infection.mp3'
   },
   {
-    title: 'Abyss',
-    artist: 'Doomroar',
-    src: '//d9n2q0aon7p4b.cloudfront.net/audio/DOOMROAR_Abyss.mp3'
-  },
-  {
-    title: 'Dragon Heart',
-    artist: 'Earthshifter',
-    src: '//d9n2q0aon7p4b.cloudfront.net/audio/Earthshifter_Dragon_Heart.mp3'
-  },
-  {
-    title: "Summer Rush '87",
-    artist: 'Johnny Ola',
-    src: '//d9n2q0aon7p4b.cloudfront.net/audio/Johnny_Ola_Summer_Rush_87.mp3'
-  },
-  {
-    title: 'Absolute Black',
-    artist: 'Nitelight',
-    src: '//d9n2q0aon7p4b.cloudfront.net/audio/Nitelight_Absolute_black.mp3'
-  },
-  {
-    title: 'I am the Danger',
-    artist: 'Powernerd',
-    src: '//d9n2q0aon7p4b.cloudfront.net/audio/POWERNERD_I_Am_The_Danger.mp3'
-  },
+    title: 'The Friar who brewed himself to death',
+    artist: 'Powerdong',
+    src: 'https://powerdongassets.blob.core.windows.net/songs/demosong.m4a'
+  }
 ]
 
 class Radio {
