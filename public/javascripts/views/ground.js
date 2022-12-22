@@ -7,7 +7,7 @@ import { WIDTH } from '../constants/index.js'
 // personal capacity and am not conveying any rights to any intellectual
 // property of any third parties.
 
-const render = ({ context, closest, furthest, fill = '#3D2B68' }) => {
+const render = ({ context, closest, furthest, fill = '#512D08' }) => {
   context.fillStyle = fill
   context.fillRect(
     0,

@@ -6,7 +6,7 @@ import renderPolygon from './polygon.js'
 // personal capacity and am not conveying any rights to any intellectual
 // property of any third parties.
 
-const render = ({ context, closest, furthest, stroke = null, fill = '#793477' }) => {
+const render = ({ context, closest, furthest, stroke = null, fill = '#a45c44' }) => {
   const points = [
     [closest.screen.position.x - closest.screen.width, closest.screen.position.y],
     [closest.screen.position.x + closest.screen.width, closest.screen.position.y],

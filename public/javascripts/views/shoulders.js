@@ -9,7 +9,7 @@ import { WIDTH, LANES } from '../constants/index.js'
 
 const shoulderWidth = projectedRoadWidth => projectedRoadWidth / Math.max(6, 2 * LANES)
 
-const render = ({ context, closest, furthest, fill = '#F1639E' }) => {
+const render = ({ context, closest, furthest, fill = '#6e3e2d' }) => {
   const r1 = shoulderWidth(closest.screen.width)
   const r2 = shoulderWidth(furthest.screen.width)
 

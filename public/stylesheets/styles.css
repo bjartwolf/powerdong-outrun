@@ -68,7 +68,7 @@ html, body {
   text-transform: uppercase;
   text-align: center;
   -webkit-transform: skew(-5deg, -5deg);
-  background-image: -webkit-linear-gradient(#FDC42C 0%, #FB199E 100%);
+  background-image: -webkit-linear-gradient(#FDC42C 0%, #a88e37 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(5px 5px 2px #002EC3);
@@ -82,10 +82,10 @@ html, body {
   padding: 0;
   margin: 0;
   border-radius: 30px;
-  border: 1px solid #FB199E;
+  border: 1px solid #a88e37;
   box-shadow:
-    inset 0 0 10px #FB199E, inset 10px 0 50px #FB199E, inset -10px 0 50px #FB199E,
-          0 0 10px #FB199E,      -10px 0 50px #FB199E,        10px 0 50px #FB199E;
+    inset 0 0 10px #a88e37, inset 10px 0 50px #a88e37, inset -10px 0 50px #a88e37,
+          0 0 10px #a88e37,      -10px 0 50px #a88e37,        10px 0 50px #a88e37;
 }
 
 .title-screen {
@@ -102,12 +102,12 @@ html, body {
   font-family: 'Bayshore', cursive;
   text-align: center;
   margin-top: 200px;
-  -webkit-filter: drop-shadow(2px 2px 3px #FB199E);
-  text-shadow: 0px 0px 3px #FB199E;
+  -webkit-filter: drop-shadow(2px 2px 3px #a88e37);
+  text-shadow: 0px 0px 3px #a88e37;
 }
 
 .controls {
-  color: #FB199E;
+  color: #a88e37;
   width: 180px;
   margin: 0 auto;
   font-family: 'Helvetica Neue Light', sans-serif;
@@ -137,7 +137,7 @@ html, body {
   font-family: 'lazer84', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  background-image: -webkit-linear-gradient(#FB199E 0%, #FB199E 100%);
+  background-image: -webkit-linear-gradient(#a88e37 0%, #a88e37 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-filter: drop-shadow(0px 0px 0px #002EC3);
@@ -151,8 +151,8 @@ html, body {
   font-family: 'Bayshore', cursive;
   text-align: center;
   font-style: italic;
-  text-shadow: 0px 0px 3px #FB199E;
-  -webkit-filter: drop-shadow(2px 2px 3px #FB199E);
+  text-shadow: 0px 0px 3px #a88e37;
+  -webkit-filter: drop-shadow(2px 2px 3px #a88e37);
   color: #fff;
 }
 
@@ -163,7 +163,7 @@ a:link, a:visited { color: inherit; }
   height: 480px;
   width: 640px;
   border-radius: 30px;
-  border: 1px solid #FB199E;
+  border: 1px solid #a88e37;
 }
 
 img, audio {
@@ -172,7 +172,7 @@ img, audio {
 
 .crash {
   opacity: 0;
-  background-color: #FB199E;
+  background-color: #a88e37;
   animation: shock 3s 1;
   position: absolute;
   top: 0;
@@ -181,12 +181,12 @@ img, audio {
   width: 640px;
   padding: 0;
   margin: 0;
-  border: 1px solid #FB199E;
+  border: 1px solid #a88e37;
   border-radius: 30px;
 }
 
 .health {
-  color: #FB199E;
+  color: #a88e37;
   position: absolute;
   top: 0;
   left: 0;
@@ -225,5 +225,5 @@ img, audio {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 5px;
-  color: #FB199E;
+  color: #a88e37;
 }

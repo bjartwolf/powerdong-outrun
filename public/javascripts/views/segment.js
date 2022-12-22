@@ -16,7 +16,7 @@ const render = ({ context, segment, isCheckpoint }) => {
   const { closest, furthest, fog, isLight } = segment
 
   renderGround({ context, closest, furthest })
-  renderRoad({ context, closest, furthest, fill: isCheckpoint ? '#F1639E' : '#793477' })
+  renderRoad({ context, closest, furthest, fill: isCheckpoint ? '#ffa787' : '#6e3e2d' })
   renderShoulders({ context, closest, furthest })
 
   if (!isCheckpoint) {

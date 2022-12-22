@@ -12,7 +12,7 @@ const MIDDLE_LANE = 2
 
 const laneMarkerWidth = projectedRoadWidth => projectedRoadWidth / LANE_WIDTH
 
-const render = ({ context, closest, furthest, stroke, fill = '#793477', isLight }) => {
+const render = ({ context, closest, furthest, stroke, fill = '#6e3e2d', isLight }) => {
   let l1 = laneMarkerWidth(closest.screen.width)
   let l2 = laneMarkerWidth(furthest.screen.width)
   let lanewidth1 = closest.screen.width * 2 / LANES
@@ -29,7 +29,7 @@ const render = ({ context, closest, furthest, stroke, fill = '#793477', isLight 
     ]
 
     if (lane === MIDDLE_LANE) {
-      renderPolygon({ context, points: pts, stroke, fill: '#F5A6A1' })
+      renderPolygon({ context, points: pts, stroke, fill: '#a45c44' })
       renderPolygon({
         context,
         points: [
@@ -42,7 +42,7 @@ const render = ({ context, closest, furthest, stroke, fill = '#793477', isLight 
         fill
       })
     } else {
-      renderPolygon({ context, points: pts, stroke, fill: isLight ? fill : '#F1639E' })
+      renderPolygon({ context, points: pts, stroke, fill: isLight ? fill : '#a45c44' })
     }
   }
 }

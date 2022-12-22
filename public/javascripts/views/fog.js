@@ -9,7 +9,7 @@ import { WIDTH, HEIGHT } from '../constants/index.js'
 const render = ({ context, x, y, width = WIDTH, height = HEIGHT, fog }) => {
   if (fog < 1) {
     context.globalAlpha = 1 - fog
-    context.fillStyle = '#7B3679'
+    context.fillStyle = '#a45c44'
     context.fillRect(x, y, width, height)
     context.globalAlpha = 1
   }
