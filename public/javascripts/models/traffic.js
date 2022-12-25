@@ -1,7 +1,7 @@
 import Car from './car.js'
 import { SEGMENT_LENGTH } from '../constants/index.js'
 
-const CAR_COUNT = 200
+const CAR_COUNT = 20
 
 class Traffic {
   constructor ({ cars, road }) {
