@@ -9,9 +9,9 @@ import { CAMERA_HEIGHT, CAMERA_DEPTH, MAX_SPEED, CENTRIFUGAL } from '../constant
 // personal capacity and am not conveying any rights to any intellectual
 // property of any third parties.
 
-const WIDTH = 80
-const INCLINE_HEIGHT = 45
-const LEVEL_HEIGHT = 41
+const WIDTH =96 
+const INCLINE_HEIGHT = 64 
+const LEVEL_HEIGHT = 64 
 const SCALE = 0.00375
 const X = 0
 const Y = 0
