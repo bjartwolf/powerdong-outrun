@@ -16,3 +16,13 @@ $ git clone https://github.com/NathanielWroblewski/outrun.git
 $ cd outrun
 $ python -m http.server
 ```
+
+Some todos
+- Buildscript with autoreload (vite)
+- Some tests perhaps
+- Consider typescript...
+- Decide on art style for the truck
+- Find a color palette
+- Naive high score system
+- Break and turn should shift weight forwards and give a cool effect
+- Look at gifs to get card skidding effects on sprites - check feasabilty
